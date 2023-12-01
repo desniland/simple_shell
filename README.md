@@ -20,13 +20,13 @@ Make sure you have the following installed on your system:
 ### Building the Shell
 
 ```bash
-gcc shell.c -o shell
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
 
 ### Running the Shell
 
 ```bash
-./shell
+./hsh
 ```
 
 ## Usage
