@@ -28,4 +28,10 @@ int _myalias(info_t *info);
 /* _putchar */
 int _putchar(char c);
 
+/* function3 */
+int _myexit(info_t *info);
+int _mycd(info_t *info);
+int _myhelp(info_t *info);
+
+
 #endif
