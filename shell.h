@@ -18,4 +18,14 @@ int is_delim(char, char *);
 int _isalpha(int);
 int _atoi(char *);
 
+/*function2 */
+int _myhistory(info_t *info);
+int unset_alias(info_t *info, char *str);
+int set_alias(info_t *info, char *str);
+int print_alias(list_t *node);
+int _myalias(info_t *info);
+
+/* _putchar */
+int _putchar(char c);
+
 #endif
