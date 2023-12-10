@@ -44,6 +44,10 @@ int _mysetenv(info_t *info);
 int populate_env_list(info_t *info);
 
 /* function5 */
-
+int _erratoi(char *s);
+void print_error(info_t *info, char *estr);
+int print_d(int input, int fd);
+char *convert_number(long int num, int base, int flags);
+void remove_comments(char *buf);
 
 #endif
