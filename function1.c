@@ -4,7 +4,7 @@
  * interactive - checks if shell is in interactive mode
  * @info: is structure address
  *
- * Return: 1 if interactive mode, else 0 
+ * Return: 1 if interactive mode, else 0
 */
 int interactive(info_t *info)
 {

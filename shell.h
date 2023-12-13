@@ -81,7 +81,8 @@ int linecount_flag;
 char *fname;
 list_t *env;
 list_t *history;
-list_t *alias;char **environ;
+list_t *alias;
+char **environ;
 int env_changed;
 int status;
 char **cmd_buf;
@@ -106,8 +107,8 @@ int (*func)(info_t *);
 
 
 #define INFO_INIT \
-{NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
-	        0, 0, 0}
+{NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, \
+	NULL, NULL, NULL, 0, 0, NULL, 0, 0, 0}
 
 /*function1 */
 int interactive(info_t *info);
