@@ -139,6 +139,7 @@ int _myhelp(info_t *info);
 int _myenv(info_t *info);
 char *_getenv(info_t *info, const char *name);
 int _mysetenv(info_t *info);
+int _myunsetenv(info_t *info);
 int populate_env_list(info_t *info);
 
 /* function5 */
